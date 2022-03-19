@@ -1,0 +1,47 @@
+
+@font-face{
+    font-family: "DALEK PINPOINT BOLD";
+    src: url("../fonts/DalekPinpointBold.ttf") format("truetype");
+}
+* {
+    color: black;
+    font-family: DALEK PINPOINT BOLD;
+}
+
+#logo {
+    max-height: 150px;
+    max-width: 200px;
+}
+
+#header-space {
+    min-height: 200px;
+}
+
+ul > li > a {
+    max-width: 300px;
+    text-decoration: none;
+    color: black;
+}
+li {
+    margin: 10px 0px 30px 30px;
+}
+a:hover {
+    opacity: 0.7;
+}
+.main {
+    margin: 0 auto;
+    padding-top: 250px;
+}
+.menu_space {
+    width: 100vw;
+    height: 400px;
+}
+.przebieg_walki {
+    margin: 0 auto;
+    padding-top: 250px;
+    height: 300px;
+    width: 400px;
+}
+
+
+

@@ -1,0 +1,12 @@
+
+<div class="bg-image d-flex align-items-center " style="background-image: url('/img/arena final.jpg'); height: 100vh; background-repeat: no-repeat; background-size: cover;">
+    <div id="header-space"></div>
+    <div class="main">
+        <h2>Wybierz wojownikow</h2>
+        <form action="/arena/fight" method="POST">
+            {{> warrior-select select-name="warrior1"}}
+            {{> warrior-select select-name="warrior2"}}
+            <button type="submit">Rozpocznij walkę!</button>
+        </form>
+    </div>
+</div>

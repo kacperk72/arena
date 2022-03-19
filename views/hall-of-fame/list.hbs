@@ -1,0 +1,26 @@
+<div class="bg-image d-flex align-items-center "
+     style="background-image: url('/img/sala slaw final.jpg'); height: 100vh; background-repeat: no-repeat; background-size: cover;">
+    <div id="header-space"></div>
+    <div class="main">
+        <h2>Sala sław</h2>
+        <table class="text-center">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Ilość zwycięstw</th>
+                <th>Imię</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each warriors}}
+                <tr>
+                    <th>{{this.place}}</th>
+                    <td>{{this.warrior.wins}}</td>
+                    <td>{{this.warrior.name}}</td>
+                </tr>
+            {{/each}}
+            </tbody>
+
+        </table>
+    </div>
+</div>
